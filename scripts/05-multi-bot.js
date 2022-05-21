@@ -1,9 +1,9 @@
 const mineflayer = require('mineflayer');
 
 let botArgs = {
-    host: 'localhost',
-    port: '12345',
-    version: '1.8.9'
+    host: 'Infinitecode.aternos.me',
+    port: '47029',
+    version: '1.18.1'
 };
 
 class MCBot {
@@ -69,6 +69,6 @@ class MCBot {
 }
 
 let bots = [];
-for(var i = 0; i < 6; i++) {
-    bots.push(new MCBot(`Hello_world_${i}`))
+for(var i = 0; i < 100; i++) {
+    bots.push(new MCBot(`Infinite_${i}`))
 }
